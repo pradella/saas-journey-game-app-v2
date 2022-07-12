@@ -1,0 +1,27 @@
+@import '../../../styles/global.scss';
+
+.root {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid $color-primary;
+  background-color: $color-primary;
+  color: black;
+  font-weight: 900;
+  font-size: 1rem;
+  @extend %clickable;
+}
+
+.outline {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-weight: normal;
+}
+
+.block {
+  align-self: normal;
+}
+
+.iconMargin {
+  margin-right: 10px;
+}

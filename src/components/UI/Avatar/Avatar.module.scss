@@ -1,0 +1,23 @@
+@import '../../../styles/global.scss';
+
+.root {
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  border-radius: 100%;
+  border: 1px solid #222;
+}
+
+.clickable {
+  @extend %clickable;
+}
+
+.sm {
+  width: 40px;
+  height: 40px;
+}
+
+.lg {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,23 @@
+.root {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  width: 300px;
+
+  > span {
+    margin-bottom: 50px;
+  }
+
+  > * {
+    margin: 5px 0;
+  }
+}

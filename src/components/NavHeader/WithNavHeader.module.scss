@@ -1,0 +1,41 @@
+@import '../../styles/global.scss';
+
+.root {
+  > :last-child {
+    // margin-top: 70px;
+  }
+}
+
+.slideLeftIn {
+  -webkit-animation: slideLeftIn 0.3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideLeftIn 0.3s; /* Firefox < 16 */
+  -ms-animation: slideLeftIn 0.3s; /* Internet Explorer */
+  -o-animation: slideLeftIn 0.3s; /* Opera < 12.1 */
+  animation: slideLeftIn 0.3s;
+}
+
+@keyframes slideLeftIn {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+.slideRightIn {
+  -webkit-animation: slideRightIn 0.3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideRightIn 0.3s; /* Firefox < 16 */
+  -ms-animation: slideRightIn 0.3s; /* Internet Explorer */
+  -o-animation: slideRightIn 0.3s; /* Opera < 12.1 */
+  animation: slideRightIn 0.3s;
+}
+
+@keyframes slideRightIn {
+  from {
+    margin-left: -200px;
+  }
+  to {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,24 @@
+@keyframes RingProgress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.ActivityRings {
+  height: 100%;
+  width: 100%;
+
+  .ring {
+    transform-origin: 50%;
+  }
+  .completed {
+    animation: RingProgress 1s ease-in-out forwards;
+    stroke-linecap: round;
+  }
+  .background {
+    opacity: 0.1;
+  }
+  circle {
+    fill: none;
+  }
+}

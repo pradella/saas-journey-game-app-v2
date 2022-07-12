@@ -1,0 +1,5 @@
+@import '../../../styles/global.scss';
+
+.Icon__clickable {
+  @extend %clickable;
+}

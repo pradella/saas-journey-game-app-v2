@@ -1,0 +1,9 @@
+@import '../../../styles/global.scss';
+
+.root {
+  display: flex;
+}
+
+.fadeIn {
+  @extend %fadeIn;
+}
